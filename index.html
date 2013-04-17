@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="yandex-verification" content="7c7a73ab0351bf31">
+    <meta charset="UTF-8">
+    <meta name="author" content="wrkshop.biz">
+    <title>Fixcom — скорая компьютерная помощь. Ремонт компьютеров, ноутбуков, абонентское обслуживание организаций в городе Рязань.</title>
+    <link rel="stylesheet" href="index/reset.css">
+    <script type="text/javascript" src="index/jquery-1.js"></script>
+    <script type="text/javascript" src="index/jquery-ui-1.js"></script>
+    <script type="text/javascript" src="index/autoresize.js"></script>
+    <script type="text/javascript" src="index/app.js"></script>
+    <link rel="stylesheet" href="index/style.css">
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="/assets/css/iestyle.css" type="text/css">
+    <![endif]-->
+
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+    <div id="logo">
+        <a href="http://fixcom62.loc/" id="mainAnch"><div></div></a>
+    </div>
+    <div id="tmenu">
+        <div id="mcont">
+            <div class="tmel active" id="mabout">
+                <div class="mel" id="maboutR"></div>
+                <div class="mel" id="maboutE"></div>
+            </div>
+            <div class="tmel" id="mserv">
+                <div class="mel" id="mservR"></div>
+                <div class="mel" id="mservE"></div>
+            </div>
+            <div class="tmel" id="mconts">
+                <div class="mel" id="mcontsR"></div>
+                <div class="mel" id="mcontsE"></div>
+            </div>
+            <div style="left: -100px; width: 0px; opacity: 0; display: none; overflow: hidden;" id="mpad">
+                <div id="mpad_cent"></div>
+                <span id="mpad_left"></span>
+                <span id="mpad_right"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="content">
+    <div class="movable active" id="main">
+        <div id="m_col_l">
+            <div class="c_row">
+                <div class="c_r_head">
+                    <img src="index/about_help.png">
+                </div>
+                <div class="c_c_bl" style="padding-top: 6px;">
+                    <p class="hyp" style="word-spacing: -0.1em;">Ре­монт компь­юте­ров очень тру­до­ем­кий про­цесс, тре­бу­ющий
+                        не толь­ко спе­ци­аль­ных зна­ний. По­это­му
+                        компь­ютер­ная по­мощь — это де­ло рук про­фес­си­ональ­ных мас­те­ров. Наш компь­ютер­ный сер­вис, имея
+                        опыт­ных и про­фес­си­ональ­ных мас­те­ров, вы­пол­ня­ет
+                        ре­монт всей­компь­ютер­ной тех­ни­ки не­зави­симо от
+                        уров­ня слож­ности и по де­мок­ра­тич­ным це­нам.
+                    </p>
+                </div>
+            </div>
+            <div class="c_row" style="padding-top: 1px;">
+                <div class="cit">
+                    <div class="laq"></div>
+                    <p id="mpcit" class="hyp it" style="word-spacing: -0.1em;">Пос­ле за­яв­ки, спе­ци­алист при­будет
+                        мак­си­маль­но быс­тро. Ус­тра­нит не­ис­прав­ность или
+                        рас­ска­жет, ка­кие де­тали тре­бу­ют за­мены,
+                        пре­дос­та­вив прос­той и по­нят­ный план ско­рого
+                        ре­шения проб­ле­мы.<span class="rraq"></span>
+					</p>
+                </div>
+            </div>
+            <div class="c_row" style="padding-top: 1px;">
+                <div class="c_c_bl">
+                    <p class="hyp" style="word-spacing: -0.1em;">По­рой 
+кли­ен­ты де­ла­ют не­вер­ный вы­бор, об­ра­ща­ясь
+                        к ди­летан­там-са­мо­уч­кам. Сро­ки — это еще не
+ по­вод
+                        так пос­ту­пать. Зап­ла­тив нем­но­го за 
+по­доб­ный ре­монт, вы пот­ра­тите свое дра­гоцен­ное вре­мя и день­ги
+                        на ус­тра­нение пос­ледс­твий «лю­битель­ско­го»
+ ре­мон­та компь­юте­ров.</p>
+                </div>
+            </div>
+        </div>
+        <div class="c_vsp"></div>
+        <div id="m_col_c">
+            <img src="index/mp_midgraph.png" id="i_info_grapg">
+        </div>
+        <div class="c_vsp"></div>
+        <div id="m_col_r">
+            <div class="c_row">
+                <div class="c_r_head">
+                    <img src="index/about_move.png" id="i_ab_move">
+                </div>
+                <div class="c_c_bl" style="padding-top: 5px;">
+                    <p class="hyp" style="word-spacing: -0.1em;">В 
+пер­вую оче­редь мы оп­ре­деля­ем при­чину по­лом­ки. В
+                        слу­чае не­ис­прав­ности прог­рам­мно­го 
+обес­пе­чения —
+                        спе­ци­алист вы­ез­жа­ет на дом, что яв­ля­ет­ся
+ не­мало­важ­ным пре­иму­щес­твом, так как вы смо­жете наб­лю­дать за
+                        про­цес­сом ре­мон­та. Ес­ли же проб­ле­ма в 
+обо­рудо­вании,
+                        то ди­аг­ности­ка про­водит­ся в офи­се. Как 
+пра­вило, ре­зуль­та­ты тес­ти­рова­ния оп­ре­деля­ют не­об­хо­димость в
+ тех
+                        или иных опе­раци­ях.
+                        </p>
+
+                </div>
+            </div>
+            <div class="c_row">
+                <div id="m_vg">
+                    <div class="c_c_bl">
+                        <p class="hyp it" style="word-spacing: -0.1em;">Сот­рудни­ки ком­па­нии об­ла­да­ют все­ми не­об­хо­димы­ми зна­ни­ями и на­выка­ми, бла­года­ря
+                            ко­торым с лёг­костью обу­чат вас — как пра­виль­но об­ра­щать­ся с
+                            тех­ни­кой, что­бы в бу­дущем из­бе­жать по­ломок.
+						</p>
+                    </div>
+                </div>
+            </div>
+            <div class="c_row">
+                <div class="c_c_bl">
+                    <p class="hyp">Для кор­по­ратив­ных кли­ен­тов у нас осо­бые ус­ло­вия —
+                        в слу­чае зак­лю­чения до­гово­ра на або­нент­ское об­слу­жива­ние — мы га­ран­ти­ру­ем на­дёж­ную
+                        ра­ботос­по­соб­ность всей тех­ни­ки фир­мы. Вы бу­дете спо­кой­ны за ра­бочий про­цесс, ко­торый
+                        ис­поль­зу­ет­ся на бла­го биз­не­са
+                        и не ос­та­нав­ли­ва­ет­ся ни на се­кун­ду по ви­не сбоя.
+						</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="movable" id="serv">
+        <div id="services">
+
+            <div id="sp_lcol">
+                <div class="sp_colhead">
+                    <img src="index/serv_cent.png" style="margin-top: -2px; padding-bottom: 2px;">
+                </div>
+                <table class="sp_table">
+                    <tbody>
+                    <tr class="sp_bhead">
+                        <td class="inf" colspan="4">Ремонт и обновление</td>
+                    </tr>
+                    <tr>
+                        <td class="inf">Персональных компьютеров</td>
+                        <td class="price t">от 400<span class="pr_rub"><span>b</span></span></td>
+                    </tr>
+                    <tr class="z1">
+                        <td class="inf">Ноутбуков, нетбуков, моноблоков</td>
+                        <td class="price t">от 500<span class="pr_rub"><span>b</span></span></td>
+                    </tr>
+                    <tr>
+                        <td class="inf">Диагностика оборудования</td>
+                        <td class="price">бесплатно</td>
+                    </tr>
+                    <tr class="sp_bhead">
+                        <td class="inf" colspan="2">Восстановление данных</td>
+                    </tr>
+                    <tr>
+                        <td class="inf">С жестких дисков</td>
+                        <td class="price t">от 700<span class="pr_rub"><span>b</span></span></td>
+                    </tr>
+                    <tr class="z1">
+                        <td class="inf">С флешек</td>
+                        <td class="price t">от 400<span class="pr_rub"><span>b</span></span></td>
+                    </tr>
+                    <tr>
+                        <td class="inf">После удаления</td>
+                        <td class="price t">от 700<span class="pr_rub"><span>b</span></span></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div id="m_vg_2" class="hyp it">Точ­ное по­нима­ние за что вы пла­тите — 
+				обя­затель­ное ус­ло­вие про­фес­си­ональ­ной
+				ра­боты. С на­ми не при­дет­ся пла­тить за
+				не­сущес­тву­ющий сер­вис.
+				</div>
+            </div>
+            <div id="sp_mcol">
+                <div class="sp_colhead">
+                    <img src="index/it-outs.png">
+                </div>
+                <table class="sp_table">
+                    <tbody>
+                    <tr class="z1">
+                        <td class="inf">Абонентское обслуживание организаций</td>
+                        <td class="price t">от 1500<span class="pr_rub"><span>b</span></span><span class="price">в месяц</span></td>
+                    </tr>
+                    <tr>
+                        <td class="inf">Скорая компьютерная помощь</td>
+                        <td class="price t">от 400<span class="pr_rub"><span>b</span></span></td>
+                    </tr>
+                    <tr class="z1">
+                        <td class="inf">IT-аудит</td>
+                        <td class="price">бесплатно</td>
+                    </tr>
+                    <tr>
+                        <td class="inf">IT-консалтинг</td>
+                        <td class="price">бесплатно</td>
+                    </tr>
+                    <tr class="sp_bhead">
+                        <td class="inf" colspan="2">Программное обеспечение</td>
+                    </tr>
+                    <tr>
+                        <td class="inf">Установка операционных систем</td>
+                        <td class="price t">от 700<span class="pr_rub"><span>b</span></span></td>
+                    </tr>
+                    <tr class="z1">
+                        <td class="inf">Настройка программ и драйверов</td>
+                        <td class="price t">от 400<span class="pr_rub"><span>b</span></span></td>
+                    </tr>
+                    <tr>
+                        <td class="inf">Антивирусная профилактика</td>
+                        <td class="price t">от 400<span class="pr_rub"><span>b</span></span></td>
+                    </tr>
+                    <tr class="z1">
+                        <td class="inf">Удаление рекламных баннеров</td>
+                        <td class="price t">от 400<span class="pr_rub"><span>b</span></span></td>
+                    </tr>
+                    <tr>
+                        <td class="inf">Продажа лицензионных продуктов</td>
+                        <td class="price t">от 450<span class="pr_rub"><span>b</span></span></td>
+                    </tr>
+                    <tr class="z2">
+                        <td class="inf">Выезд специалиста за пределы Рязани</td>
+                        <td class="price t">5<span class="pr_rub"><span>b</span></span>км</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="sp_rcol">
+                <div class="sp_colhead">
+                    <img src="index/inet.png">
+                </div>
+                <table class="sp_table">
+                    <tbody>
+                    <tr class="sp_bhead">
+                        <td class="inf" colspan="4">Подключение и установка</td>
+                    </tr>
+                    <tr>
+                        <td class="inf">Ethernet, DSL, Wi-Fi, WiMax, 3G, GPRS</td>
+                        <td class="price t">от 400<span class="pr_rub"><span>b</span></span></td>
+                    </tr>
+                    <tr class="z1">
+                        <td class="inf">Локальной сети</td>
+                        <td class="price t">от 500<span class="pr_rub"><span>b</span></span></td>
+                    </tr>
+                    <tr>
+                        <td class="inf">Сетевого оборудования</td>
+                        <td class="price t">от 500<span class="pr_rub"><span>b</span></span></td>
+                    </tr>
+                    <tr class="sp_bhead">
+                        <td class="inf" colspan="2">Настройка</td>
+                    </tr>
+                    <tr>
+                        <td class="inf">Учетных записей</td>
+                        <td class="price t">от 400<span class="pr_rub"><span>b</span></span></td>
+                    </tr>
+                    <tr class="z1">
+                        <td class="inf">Социальных сетей</td>
+                        <td class="price t">от 400<span class="pr_rub"><span>b</span></span></td>
+                    </tr>
+                    <tr>
+                        <td class="inf">Мессенджеров и почтовых клиентов</td>
+                        <td class="price t">от 400<span class="pr_rub"><span>b</span></span></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="cit" id="serv_2cit">
+                    <div class="laq"></div>
+                    <p id="scit" class="hyp it">Це­ны на ус­лу­ги бо­лее чем скром­ные, мы не стре­мим­ся их за­высить. Мы всег­да точ­но ука­жем —
+					что, по­чему и сколь­ко сто­ит. Кли­ент оп­ла­чива­ет лишь сто­имость сог­ласно прайс-лис­ту. <span class="rraq"></span>
+					</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="movable" id="about">
+        <div class="c_l_col">
+            <div class="c_row">
+                <div id="wh">
+                    <div class="c_r_head" style="height: 45px;">
+                        <img class="c_r_ico" src="index/who_we_are.png">
+                    </div>
+                    <div class="c_c_bl">
+                        <p class="hyp">Ко­ман­да ква­лифи­циро­ван­ных спе­ци­алис­тов, спо­соб­ная мак­си­маль­но быс­тро ока­зать по­мощь в об­ласти
+						сов­ре­мен­ных тех­но­логий. На­шей целью яв­ля­ет­ся —
+						рас­ши­рение пред­став­ле­ния кли­ен­тов о воз­можнос­тях IT-об­слу­жива­ния.
+						</p>
+                    </div>
+                </div>
+                <div class="c_vsp"></div>
+                <div id="how_wrk">
+                    <div class="c_r_head" style="height: 45px;">
+                        <img class="c_r_ico" src="index/how_we_work.png">
+                    </div>
+                    <div class="c_c_bl">
+                        <p class="hyp">Сер­висный центр пред­став­лен кол­лекти­вом ин­же­неров, ко­торые ре­ша­ют пол­ный спи­сок
+                            за­дач, вклю­ча­ющий — ус­тра­нение слож­ных по­ломок, ди­аг­ности­ку всех уз­лов сов­ре­мен­но­го
+                            пер­со­наль­но­го компь­юте­ра, но­ут­бу­ка, мо­нито­ра и про­чей ап­па­рату­ры.
+						</p>
+                    </div>
+                </div>
+            </div>
+            <div class="c_row">
+                <div class="cit" style="margin-top: 14px;">
+                    <div class="laq"></div>
+                    <p id="abcit" class="hyp it">Мы тща­тель­но ана­лизи­ру­ем за­дачи кли­ен­та и на­ходим са­мое эф­фектив­ное ре­шение, что
+                        га­ран­ти­ру­ет на­дёж­ную ра­ботос­по­соб­ность всей тех­ни­ки фир­мы.<span class="rraq"></span>
+						</p>
+                  </div>
+            </div>
+            <div class="c_row">
+                <div>
+                    <div class="c_r_head" style="height: 40px;">
+                        <img class="c_r_ico" src="index/our_works.png">
+                    </div>
+                    <div class="c_c_bl">
+                        <p class="hyp">Преж­де все­го мы за­нима­ем­ся 
+IT-а­ут­сорсин­гом — або­нент­ским об­слу­жива­ни­ем
+                            ор­га­низа­ций. В этус­фе­ру де­ятель­нос­ти
+ вхо­дит — под­дер­жка по на­ибо­лее рас­простра­нён­ным
+                            прог­рам­мным про­дук­там, ус­та­нов­ка и 
+нас­трой­ка ли­цен­зи­он­но­го прог­рам­мно­го обес­пе­чения,
+                            из­бавле­ние от ви­русов, нас­трой­ка и 
+оп­ти­миза­ция опе­раци­он­ных сис­тем, вос­ста­нов­ле­ние дан­ных. И
+                            это ма­лая часть то­го, что мы мо­жем 
+пред­ло­жить.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="c_row">
+                <div id="cit_2" style="margin-top: 16px;">
+                    <div class="c_c_bl">
+                        <p class="hyp it">Мы яв­ля­ем­ся 
+офи­ци­аль­ны­ми пар­тнё­рами кор­по­рации «Microsoft» и всег­да го­товы
+                            осу­щес­твить ус­та­нов­ку 
+ли­цен­зи­он­но­го прог­рам­мно­го обес­пе­чения. При­об­ре­тая 
+про­дук­ты ком­па­нии у
+                            нас, вы по­луча­ете
+                            ква­лифи­циро­ван­ную под­дер­жку 
+сот­рудни­ков «Fixcom».</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c_r_col">
+            <div>
+                <div class="c_r_head" style="height: 45px;">
+                    <img src="index/our_clients.png" class="c_r_ico">
+                </div>
+                <div id="client_list">
+                    <ul>
+                        <li>
+                            <p>
+                                <span class="sp"> Оператор мультимедийных услуг </span>
+                                <span class="sp1">
+                                    <a href="http://www.ryazan.dom.mts.ru/" target="_blank" class="it">
+                                        «Комстар-регионы»
+                                    </a>
+                                </span>
+                            </p>
+                        </li>
+                        <li class="zz"><p><span class="sp"> Интернет-оператор </span><span class="sp1"><a href="http://ryazan.multinex.ru/" target="_blank" class="it"> «Антенна-гарант»</a></span></p></li>
+                        <li><p><span class="sp"> Сервисно-монтажная компания </span><span class="sp1"><span class="it"> «Промгазсервис»</span></span></p></li>
+                        <li class="zz"><p><span class="sp"> Компания </span><span class="sp1"><a href="http://www.autodoc.ru/Web/" target="_blank" class="it"> «Автодок»</a></span></p></li>
+						<li><p><span class="sp"> Детский центр </span><span class="sp1"><span class="it"> «Здоровье»</span></span></p></li>
+                        <li class="zz"><p><span class="sp"> Компания </span><span class="sp1"><a href="http://www.gutains.ru/contacts/branch/regions/ryazan/" target="_blank" class="it"> «Гута-страхование»</a></span></p></li>
+                        <li><p><span class="sp"> Учреждение культуры </span><span class="sp1"><a href="http://kinfond.narod.ru/" target="_blank" class="it"> «Кинофонд»</a></span></p></li>
+						<li class="zz"><p><span class="sp"> Компания </span><span class="sp1"><a href="http://www.methome.ru/" target="_blank" class="it"> «Метхоум»</a></span></p></li>
+                        <li><p><span class="sp"> </span><span class="sp1"><a href="http://www.severcompany.ru/" target="_blank" class="it"> «Северная компания»</a></span></p></li>
+                        <li class="zz"><p><span class="sp"> Спортивный комплекс </span><span class="sp1"><a href="http://zolotie-kupola.ru/" target="_blank" class="it"> «Золотые купола»</a></span></p></li>
+                        <li><p><span class="sp"> Компания </span><span class="sp1"><a href="http://%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C62.%D1%80%D1%84/" target="_blank" class="it"> «Строитель»</a></span></p></li>
+                        <li class="zz"><p><span class="sp"> Консультативно-диагностический центр для детей</span></p></li>
+                        <li><p><span class="sp"> Областной медицинский центр </span><span class="sp1"><span class="it"> «Резерв»</span></span></p></li>
+                        <li class="zz"><p><span class="sp"> Компания </span><span class="sp1"><span class="it"> «Стройсервис»</span></span></p></li>
+                        <li><p><span class="sp"> Компания </span><span class="sp1"><a href="http://personit.ru/" target="_blank" class="it"> «Person It»</a></span></p></li>
+						<li class="zz"><p><span class="sp"> Женская футбольная команда</span><span class="sp1"><span class="it"> «Рязань-ВДВ»</span></span></p></li>
+                        <li><p><span class="sp"> Волейбольный клуб </span><span class="sp1"><span class="it"> «Рязань»</span></span></p></li>
+                        <li class="zz"><p><span class="sp"> Центр детского творчества </span><span class="sp1"><span class="it"> «Созвездие»</span></span></p></li>
+                        <li><p><span class="sp"> Бюро путешествий </span><span class="sp1"><span class="it"> «Робинзон»</span></span></p></li>
+                        <li class="zz"><p><span class="sp"> Магазин </span><span class="sp1"><a href="http://www.love-republic.ru/" target="_blank" class="it"> «Love Republic»</a></span></p></li>
+						<li><p><span class="sp"> Товарищество собственников жилья </span><span class="sp1"><span class="it"> «Наш дом»</span></span></p></li>
+                        <li class="zz"><p><span class="sp"> Дом творчества </span><span class="sp1"><span class="it"> «Приокский»</span></span></p></li>
+                        <li><p><span class="sp"> Спортивная школа олимпийского резерва по баскетболу</span></p></li>
+                        <li class="zz"><p><span class="sp"> Магазин </span><span class="sp1"><a href="http://www.zarina.ru/" target="_blank" class="it"> «Zarina»</a></span></p></li>
+						<li><p><span class="sp"> Центр социального обслуживания населения </span><span class="sp1"><span class="it"> «Семья»</span></span></p></li>
+						<li class="zz"><p><span class="sp"> Компания </span><span class="sp1"><span class="it"> «Геосфера»</span></span></p></li>
+                        <li><p><span class="sp"> Станция детского технического творчества </span><span class="sp1"><span class="it"> «Мечта»</span></span></p></li>
+                        <li class="zz"><p><span class="sp"> Детский центр</span><span class="sp1"><span class="it"> «Рязанский оберег»</span></span></p></li>
+                        <li><p><span class="sp"> Торговый дом </span><span class="sp1"><a href="http://www.lazurit.com/Ryazan/" target="_blank" class="it"> «Лазурит»</a></span></p></li>
+                        <li class="zz"><p><span class="sp"> Сеть магазинов </span><span class="sp1"><span class="it"> «Литера М»</span></span></p></li>
+                        <li><p><span class="sp"> Рязанский центр спортивной подготовки</span></p></li>
+                        <li class="zz"><p><span class="sp"> Детский сад №159</span></p></li>
+                        <li><p><span class="sp"> Детский сад №18</span></p></li>
+                        <li class="zz"><p><span class="sp"> Детский сад №73</span></p></li>
+                        <li><p><span class="sp"> Салон фотоуслуг </span><span class="sp1"><span class="it"> «Фотоэксперт»</span></span></p></li>
+                        <li class="zz"><p><span class="sp"> </span><span class="sp1"><a href="http://www.bsmpryazan.ru/" target="_blank" class="it"> Больница скорой медицинской помощи</a></span></p></li>
+                        <li><p><span class="sp"> </span><span class="sp1"><a href="http://www.prbb.ru/ru/" target="_blank" class="it"> «Пробизнесбанк»</a></span></p></li>
+                        <li class="zz"><p><span class="sp"> Коллекторское агентство </span><span class="sp1"><a href="http://www.life-collection.ru/ryazan/" target="_blank" class="it"> «Лайф»</a></span></p></li>
+                        <li><p><span class="sp"> Компания </span><span class="sp1"><a href="http://www.pak-avto.ru/index.html" target="_blank" class="it"> «Пак-авто»</a></span></p></li>
+                        <li class="zz"><p><span class="sp"> </span><span class="sp1"><a href="http://medcollege62-rzn.ru/" target="_blank" class="it"> Медико-социальный колледж</a></span></p></li>
+                        <li><p><span class="sp"> Компания </span><span class="sp1"><span class="it"> «Связьстройсервис»</span></span></p></li>
+                        <li class="zz"><p><span class="sp"> Компания </span><span class="sp1"><span class="it"> «Строй-мастер»</span></span></p></li>
+                        <li><p><span class="sp"> Компания </span><span class="sp1"><span class="it"> «Торговый альянс»</span></span></p></li>
+                        <li class="zz"><p><span class="sp"> Производственный кооператив </span><span class="sp1"><span class="it"> «Золотой колос»</span></span></p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="footer">
+    <a id="contacts"></a>
+    <img id="contact_head" src="index/cont_head_1.png"><br>
+
+    <div class="f_col">
+        <p class="shadow">Напишите о своей проблеме и мы быстро её решим</p>
+
+        <div id="footerForm">
+            <div style="display: none;" id="sendMsg">
+                <img src="index/sended_head.png">
+
+                <p class="shadow">В максимально короткий срок с вами свяжутся</p>
+            </div>
+            <form id="contForm">
+                <div class="f_line">
+                    <div class="ffld fw_100">
+                        <div class="fld_tl"></div>
+                        <div class="fld_tr"></div>
+                        <div class="fld_bl"></div>
+                        <div class="fld_br"></div>
+                        <div class="fld_b"></div>
+                        <div class="fld_t"></div>
+                        <div class="fld_l"></div>
+                        <div class="fld_r"></div>
+                        <div class="fld_cent">
+                            <input name="name" id="name" value="Как вас зовут?" type="text">
+                            <img style="display: none;" src="index/error_sign.png" id="e_name">
+                        </div>
+                    </div>
+                </div>
+                <div class="f_line">
+                    <div class="ffld fw_220 f_l">
+                        <div class="fld_tl"></div>
+                        <div class="fld_tr"></div>
+                        <div class="fld_bl"></div>
+                        <div class="fld_br"></div>
+                        <div class="fld_b"></div>
+                        <div class="fld_t"></div>
+                        <div class="fld_l"></div>
+                        <div class="fld_r"></div>
+                        <div class="fld_cent">
+                            <input name="email" id="email" value="Электропочта" type="text">
+                            <img style="display: none;" src="index/error_sign.png" id="e_email">
+                        </div>
+                    </div>
+                    <div class="ffld fw_220 f_r">
+                        <div class="fld_tl"></div>
+                        <div class="fld_tr"></div>
+                        <div class="fld_bl"></div>
+                        <div class="fld_br"></div>
+                        <div class="fld_b"></div>
+                        <div class="fld_t"></div>
+                        <div class="fld_l"></div>
+                        <div class="fld_r"></div>
+                        <div class="fld_cent">
+                            <input name="phone" id="phone" value="Телефон" type="text">
+                            <img style="display: none;" src="index/error_sign.png" id="e_phone">
+                        </div>
+                    </div>
+                </div>
+                <div class="f_line">
+                    <div class="ffld fw_100">
+                        <div class="fld_tl"></div>
+                        <div class="fld_tr"></div>
+                        <div class="fld_bl"></div>
+                        <div class="fld_br"></div>
+                        <div class="fld_b"></div>
+                        <div class="fld_t"></div>
+                        <div class="fld_l"></div>
+                        <div class="fld_r"></div>
+                        <div class="fld_cent">
+                            <textarea tabindex="-1" style="resize: none; overflow-y: hidden; position: absolute; top: 0px; left: -9999px; height: 59px; width: 433px; line-height: 17px; text-decoration: none; letter-spacing: normal;" rows="3" onkeyup="checkCount(this);">Описание поломки</textarea><textarea style="resize: none; overflow-y: hidden;" name="descr" id="descr" rows="3" onkeyup="checkCount(this);">Описание поломки</textarea>
+                            <img src="index/error_sign.png" id="e_descr" style="position: absolute; top: 5px; right: 4px; display: none;">
+                        </div>
+                    </div>
+                </div>
+                <div class="f_line">
+                    <div class="ffld fw_100 f_h_34" id="mov_line">
+                        <div class="fld_tl"></div>
+                        <div class="fld_tr"></div>
+                        <div class="fld_bl"></div>
+                        <div class="fld_br"></div>
+                        <div class="fld_b"></div>
+                        <div id="move_bar">
+                            <div class="ui-draggable" id="move_button"></div>
+                        </div>
+                        <div class="fld_t"></div>
+                        <div class="fld_l"></div>
+                        <div class="fld_r"></div>
+                        <div class="fld_cent">
+                            <span id="move_info" class="f_r">Тяни, чтобы отправить</span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="cp_wrap">
+            <p id="copyright">©  Fixcom company, 2006–2012</p>
+            <p id="bah"><span class="bsp">Разработка и дизайн — </span><span class="sp1">
+                <a href="http://vk.com/sergey_bah" target="_blank">Sergey Bah</a></span> </p>
+        </div>
+    </div>
+    <div class="f_vspace"></div>
+    <div class="f_col rght">
+        <p class="shadow">Посетите офис, либо свяжитесь с нами любым удобным способом</p>
+
+        <div id="f_infopane">
+            <div class="f_inf_line">
+                <div class="f_inf_elem n fil">
+                    <div class="i_ico">
+                        <img src="index/hot_line.png" style="position: relative;top:2px;">
+                    </div>
+                    <div class="tx">
+                        <p class="shadow it">+7 4912 99–55–59,</p>
+                        <p class="shadow it">+7 4912 51–19‒11</p>
+                    </div>
+                </div>
+                <div class="f_inf_elem">
+                    <div class="i_ico">
+                        <img src="index/place.png" style="position:relative;top:2px;">
+                    </div>
+                    <div class="tx h dtr">
+                        <p class="shadow f_addr it" style="top:6px;">
+                            <span class="sp1"><span>Рязань, ул. Гагарина, дом 33</span></span>
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="f_inf_line">
+                <div class="f_inf_elem fil">
+                    <div class="i_ico">
+                        <img src="index/e_mail.png" style="position:relative;top:-1px;">
+                    </div>
+                    <div class="tx h">
+                        <p><span class="sp1"><a class="shadow it" href="mailto:info@fixcom62.ru">info@fixcom62.ru</a></span></p>
+                    </div>
+                </div>
+                <div class="f_inf_elem">
+                    <div class="i_ico">
+                        <img src="index/icq.png" style="position:relative;top:-5px;">
+                    </div>
+                    <div class="tx h">
+                        <p class="shadow"><span class="sp1"><a href="http://www.icq.com/people/607590736" class="it" target="_blank">607‒590‒736</a></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="f_inf_line">
+                <div class="f_inf_elem fil">
+                    <div class="i_ico">
+                        <img src="index/vk.png" style="position:relative;top:-4px;">
+                    </div>
+                    <div class="tx h">
+                        <p class="shadow" id="f_vk"><span class="sp1"><span class="it">vk.com/fixcom</span></span></p>
+                    </div>
+                </div>
+                <div class="f_inf_elem n" style="position: relative;top:-6px;">
+                    <div class="i_ico">
+                        <img src="index/time.png" style="position:relative;top:2px;">
+                    </div>
+                    <div class="tx dtr" style="padding-top: 2px;">
+                        <p class="shadow">
+                            <span>Работаем</span>
+                        </p>
+                        <p class="shadow it">
+                            <span>ежедневно с 9:00 до 19:00</span>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="arr_up"></div>
+    </div>
+</div>
+
+<div style="display: none;">
+    <img src="index/fbg_b_h.png">
+    <img src="index/fbg_l_h.png">
+    <img src="index/fbg_r_h.png">
+    <img src="index/fbg_t_h.png">
+    <img src="index/ff_bg_h.png">
+</div>
+<script>$(document).ready(initThis());</script>
+
+</body></html>
